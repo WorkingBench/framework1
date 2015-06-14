@@ -1,0 +1,161 @@
+.about {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding-top: 20px;
+	background: url('../images/earth-from-space.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about #text_about {
+	font-family: 'Ubuntu', sans-serif;
+	color: #DDDDDF;
+	text-align: center;
+}
+
+.contact {
+	position: relative;
+	height: 800px;
+	width: 100%;
+	padding-top: 20px;
+	background: url('../images/wayfarer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact #text_contact {
+	font-family: 'Ubuntu', sans-serif;
+	color: #DDDDDF;
+	text-align: center;
+}
+
+.profile {
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	padding-top: 20px;
+	background: url('../images/land.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.profile #text_profile {
+	font-family: 'Ubuntu', sans-serif;
+	color: #DDDDDF;
+	text-align: center;
+}
+
+.profile #profile_pic img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+}
+
+.profile #profile_info {
+	text-align: center;
+ 	font-family: 'Old Standard TT', serif;
+	color: white;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.admin {
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	padding-top: 20px;
+	background: url('../images/mouse.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.admin #table {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+
+}
+ .admin #delete a {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.admin #table #delete:hover {
+	background-color: white;
+}
+
+.admin .back{
+	text-align: center;
+	text-decoration:none; 
+}
+
+.admin .back:hover{
+	font-size: 20px;
+	color: red;
+}
+
+.admin #text_admin {
+	font-family: 'Ubuntu', sans-serif;
+	color: #DDDDDF;
+	text-align: center;
+}
+
+*, :before, :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.admin #button {
+	text-align: center;
+}
+
+.button,
+[class*="button-"] {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 1em 1em 0;
+  padding: 0 4em;
+  height: 3.5em;
+  font: 300 1em/3.5em 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  letter-spacing: .08em;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  color: #fff;
+  background: #0090C0;
+  border: solid 1px #fff;
+  border-radius: 2px;
+  -moz-transition: 0.35s ease all;
+  -o-transition: 0.35s ease all;
+  -webkit-transition: 0.35s ease all;
+  transition: 0.35s ease all;
+}
+.button:hover,
+[class*="button-"]:hover {
+  background: #007DA7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+.button-hover:hover {
+  line-height: 9em;
+}
+.button-hover:before {
+  content: attr(data-text);
+  color: #DEEFF5;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  position: absolute;
+  top: -2.75em;
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	background: url('../images/restricted_area.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#button {
+	position: absolute;
+	top:50%;
+	left: 45%;
+}
+
+*, :before, :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.button,
+[class*="button-"] {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 1em 1em 0;
+  padding: 0 4em;
+  height: 3.5em;
+  font: 300 1em/3.5em 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  letter-spacing: .08em;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  color: #fff;
+  background: #0090C0;
+  border: solid 1px #fff;
+  border-radius: 2px;
+  -moz-transition: 0.35s ease all;
+  -o-transition: 0.35s ease all;
+  -webkit-transition: 0.35s ease all;
+  transition: 0.35s ease all;
+}
+.button:hover,
+[class*="button-"]:hover {
+  background: #007DA7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+.button-hover:hover {
+  line-height: 9em;
+}
+.button-hover:before {
+  content: attr(data-text);
+  color: #DEEFF5;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  position: absolute;
+  top: -2.75em;
+  text-align: center;
+}

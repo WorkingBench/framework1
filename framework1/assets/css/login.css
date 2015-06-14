@@ -1,0 +1,59 @@
+ body{
+ 	margin: 0;
+ 	background: url('../images/rocket.png') #ccc;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	text-align: center;
+ }
+
+ .container {
+ 	margin: 5% 25% 5% 25%;
+ 	padding: 15px 20px 15px 20px;
+ 	border-radius: 20px;
+ 	height: 100%;
+ 	background-color: white;
+ 	opacity: 0.6;
+  filter: alpha(opacity=60);
+ }
+
+ .container h1 {
+ 	font-family: 'Lobster', cursive;
+ }
+
+ p {
+ 	text-align: center;
+ 	font-family: 'Old Standard TT', serif;
+ }
+
+ .svg-wrapper {
+ 	text-align: center;
+	margin:  auto;  
+}
+
+.svg-wrapper a {
+	text-decoration: none;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+	text-decoration: none;
+  font-family: 'Old Standard TT', serif;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
